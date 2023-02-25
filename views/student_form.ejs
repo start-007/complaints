@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Form</title>
+    <link rel="stylesheet" href="/css/form.css">
+    <style>
+        body{
+            text-align: center;
+        }       
+        @media print { @page { margin: 0; } 
+        body { margin: 1.6cm; } }
+    </style>
+</head>
+
+<body >
+    <div class="form-container">
+        <div class="top-content">
+            <span class="serial-num">S.NO</span>
+            <img class="logo" src="/assets/logo.jpeg" alt="jntuh-logo"/>
+            
+        </div>
+        <div class="clg-heading">
+            <h1 class="clg-title">JNTUH UNIVERSITY
+                COLLEGE OF ENGINEERING SULTANPUR</h1>
+            <h5 class="clg-address">Pulkal(M), Sangareddy District, Telangana.</h5>
+            <h2 class="bonafide-title">Student Complaint Box</h2> 
+        </div>
+        <div class = "complaint-box">
+            <label for="Roll No">Roll Number :</label>
+            <input type="text" id="rno">
+            <label for="Name">Name of the Student:</label>
+            <input type="text" id="name">
+            <label for="dept">Department :</label>
+            <input type="text" id="dept">
+            <label for="Roll No">State Your Complaint :</label>
+            <input type="text" id="complaint">
+        </div>
+        <button onclick="" type="submit">Submit</button>
+    </div>
+    <input type="button" value="Send Email" id="testbtn">
+</body>
+
+<script src="javascript/script.js"></script>
+
+</html>
